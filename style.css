@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.formMain{
+    width: 50vw;
+    height: 65vh;
+    background-color: white;
+    margin-left: 25vw;
+    margin-top: 20vh;
+}
+.formMain h1{
+    text-align: center;
+    padding: 20px;
+}
+
+.formMain div{
+    margin-bottom: 0.5em;
+    margin-left: 2em;
+}
+.formMain button{
+    padding: 1em;
+    background-color: lightskyblue;
+    border: solid 1px black;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: aquamarine;
+}
+#male{
+    margin-right: 35px;
+}
+.tableMain{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
