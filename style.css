@@ -2,39 +2,61 @@
     margin: 0;
     padding: 0;
 }
-.formMain{
-    width: 50vw;
-    height: 65vh;
-    background-color: white;
-    margin-left: 25vw;
-    margin-top: 20vh;
+
+span{
+    color: yellow;
 }
-.formMain h1{
-    text-align: center;
-    padding: 20px;
+h1{
+    color: darkcyan;
+    padding-top: 10vh;
+}
+.main{
+    height: 100vh;
+    width: 90vw;
+    background-color: burlywood;
+    padding-left: 10vw;
+}
+.img{
+    width: 15vw;
 }
 
-.formMain div{
-    margin-bottom: 0.5em;
-    margin-left: 2em;
+p{
+    color: white;
+    padding-bottom: 2vh;
 }
-.formMain button{
-    padding: 1em;
-    background-color: lightskyblue;
-    border: solid 1px black;
+h2{
+    color: darkcyan;
 }
-.button{
-    display: flex;
-    justify-content: center;
+ul, ol{
+    padding-left: 2vw;
 }
-body{
-    background-color: aquamarine;
+a{
+    color: red;
 }
-#male{
-    margin-right: 35px;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #ddd;    
 }
-.tableMain{
-    display: flex;
-    justify-content: center;
-    margin-top: 4vh;
-}
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(odd){background-color: #f3f3f3}
+  th:nth-child(odd){background-color: turquoise;}
+  th:nth-child(even){background-color: darkturquoise;}
+
+  .tbh{
+      margin-top: 10vh;
+      text-align: center;
+      font-size: 40px;
+      margin-bottom: -5vh;
+  }
+  .tb{
+      display: flex;
+      justify-content: center;
+      margin-top: 10vh;
+  }
